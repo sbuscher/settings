@@ -1,0 +1,132 @@
+{
+    "window.zoomLevel": 1,
+    "editor.fontSize": 16,
+    "terminal.integrated.shell.windows": "cmd.exe",
+    "terminal.integrated.env.windows": {
+        "CMDER_ROOT": "C:\\Program Files (x86)\\cmder"
+    },
+    "terminal.integrated.shellArgs.windows": [
+        "/k",
+        "C:\\Program Files (x86)\\cmder\\vendor\\bin\\vscode_init.cmd"
+    ],
+    "terminal.integrated.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [ 
+
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.showCommands",
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s"
+            ],
+            "commands": [
+                "workbench.view.search"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k",
+                "c"
+            ],
+            "commands": [
+                "editor.action.addCommentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k",
+                "u"
+            ],
+            "commands": [
+                "editor.action.removeCommentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k",
+                "v"
+            ],
+            "commands": [
+                "markdown.extension.togglePreviewToSide"
+            ]
+        },
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "k",
+                "c"
+            ],
+            "commands": [
+                "editor.action.addCommentLine"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "k",
+                "u"
+            ],
+            "commands": [
+                "editor.action.removeCommentLine"
+            ]
+        }
+    ],
+    "editor.tabSize": 4,
+    "[html]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "mssql.connections": [
+        {
+            "server": "dev-sql-gis",
+            "database": "gis",
+            "authenticationType": "Integrated",
+            "password": ""
+        }
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.activityBar.visible": true,
+    "breadcrumbs.enabled": false,
+    "workbench.sideBar.location": "left"
+}
